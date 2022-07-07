@@ -148,13 +148,13 @@ textarea {
 /* link */
 
 a {
-  color: $black;
+  color: $white;
   text-decoration: none;
 
   &:hover,
   &:focus,
   &:active {
-    color: $yellow;
+    color: $red;
     text-decoration: none;
   }
 }
@@ -460,6 +460,11 @@ a {
 .color-gold{
   color: $gold;
 }
+
+.color-red{
+  color: $red;
+}
+
 
 .fw-200 {
   font-weight: 200;
@@ -899,6 +904,10 @@ a {
 .height-750{
   height: 80vh;
   max-height: 750px!important;
+}
+
+.height-100vh{
+  height: 100vh;
 }
 
 
