@@ -1,0 +1,30 @@
+/*!
+*Theme Name: FraSca Design Group (Manzel)
+*Theme URI: https://www.frascadesigngroup.com/
+*Author: Mosuro Zaid
+*Author URI: https://github.com/Mos-zaid
+*Description: This a Custom theme built by Frasca Design Group and Mosuro Zaid for Manzel
+*Version: 1.0
+*/
+
+/* ==================== BASE ==================== */
+
+@import 'base/variables';
+@import 'base/normalize';
+@import 'base/grid';
+@import 'base/basic';
+
+
+
+/* ==================== MODULES ==================== */
+@import 'modules/header';
+@import 'modules/footer';
+@import 'modules/manzel';
+
+@import 'modules/_owl.carousel.min.scss';
+@import 'modules/_owl.theme.default.min.scss';
+
+
+
+
+/* ==================== PLUGINS ==================== */
