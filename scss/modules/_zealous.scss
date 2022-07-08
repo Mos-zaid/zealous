@@ -31,11 +31,22 @@ a.current-page{
 }
 
 .header-icon{
-    width: 34px;
+    width: 28px;
 }
 
+@media (min-width: 992px) {
+    .header-icon{
+        width: 34px;
+    }
+}
+
+
+// .footer-container{
+
+// }
+
 .footer-logo-heart-img{
-    height: 200px;
+    height: 150px;
 }
 
 .footer-logo-text-img{
@@ -45,7 +56,7 @@ a.current-page{
 
 @media (min-width: 992px) {
     .footer-logo-text-img{
-        height: 200px;
+        height: 150px;
         width: 500px;
         margin-left: -50px;
     }
@@ -59,8 +70,15 @@ a.current-page{
 }
 
 .homepage-discord-img{
-    height: 250px;
+    height: 150px;
 }
+
+@media (min-width: 992px) {
+    .homepage-discord-img{
+        height: 250px;
+    }
+}
+
 // .col-2-half{
 //     flex: 0 0 auto;
 //     width: 24.79%;

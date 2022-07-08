@@ -55,6 +55,17 @@ ul.list-style-none li{
   list-style: none;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 // Change the text on the read more button
 details.read-more[open] summary::after {
   content: attr(data-open);
@@ -715,51 +726,127 @@ a {
   width: 100%;
 }
 
-.width-90{
-  width: 90%;
-}
-
 .width-95{
   width: 95%;
 }
 
-.width-80{
-  width: 80%;
+.width-90{
+  width: 90%;
 }
 
 .width-85{
   width: 85%;
 }
 
+.width-80{
+  width: 80%;
+}
+
+.width-75{
+  width: 75%;
+}
+
 .width-70{
   width: 70%;
 }
 
+.width-65{
+  width: 65%;
+}
+
+.width-60{
+  width: 60%;
+}
+
+.width-55{
+  width: 55%;
+}
+
+.width-50{
+  width: 50%;
+}
+
+.width-45{
+  width: 45%;
+}
+
+.width-40{
+  width: 40%;
+}
+
+.width-35{
+  width: 35%;
+}
+
+.width-30{
+  width: 30%;
+}
+
+
+
 @media (min-width: 768px) {
   .width-md-100{
     width: 100%;
+  }
+
+  .width-md-95{
+    width: 95%;
   }
   
   .width-md-90{
     width: 90%;
   }
   
-  .width-md-95{
-    width: 95%;
+  
+  .width-md-85{
+    width: 85%;
   }
   
   .width-md-80{
     width: 80%;
   }
-  
-  .width-md-85{
-    width: 85%;
-  }
 
+  .width-md-75{
+    width: 75%;
+  }
+  
   .width-md-70{
     width: 70%;
-  }  
+  }
+  
+  .width-md-65{
+    width: 65%;
+  }
+  
+  .width-md-60{
+    width: 60%;
+  }
+  
+  .width-md-55{
+    width: 55%;
+  }
+  
+  .width-md-50{
+    width: 50%;
+  }
 
+  .width-md-45{
+    width: 45%;
+  }
+  
+  .width-md-40{
+    width: 40%;
+  }
+
+  .width-md-35{
+    width: 35%;
+  }
+  
+  .width-md-30{
+    width: 30%;
+  }
+
+  
 
 }
 
@@ -768,31 +855,64 @@ a {
   .width-lg-100{
     width: 100%;
   }
+
+  .width-lg-95{
+    width: 95%;
+  }
   
   .width-lg-90{
     width: 90%;
   }
   
-  .width-lg-95{
-    width: 95%;
+  .width-lg-85{
+    width: 85%;
   }
   
   .width-lg-80{
     width: 80%;
   }
 
-  .width-lg-85{
-    width: 85%;
+  
+  .width-lg-75{
+    width: 75%;
   }
   
   .width-lg-70{
     width: 70%;
-  }  
-
-  .col-lg-2-half{
-    flex: 0 0 auto;
-    width: 24.79%;
   }
+  
+  .width-lg-65{
+    width: 65%;
+  }
+  
+  .width-lg-60{
+    width: 60%;
+  }
+
+  .width-lg-55{
+    width: 55%;
+  }
+  
+  .width-lg-50{
+    width: 50%;
+  }
+
+  .width-lg-45{
+    width: 45%;
+  }
+  
+  .width-lg-40{
+    width: 40%;
+  }
+
+  .width-lg-35{
+    width: 35%;
+  }
+  
+  .width-lg-30{
+    width: 30%;
+  }
+
 }
 
 // .sticky {
