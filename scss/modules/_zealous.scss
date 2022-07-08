@@ -46,15 +46,19 @@ a.current-page{
 // }
 
 .footer-logo-heart-img{
-    height: 150px;
+    height: 100px;
 }
 
 .footer-logo-text-img{
-    height: 150px;
+    height: 100px;
     width: 500px;
 }
 
 @media (min-width: 992px) {
+    .footer-logo-heart-img{
+        height: 150px;
+    }
+    
     .footer-logo-text-img{
         height: 150px;
         width: 500px;
@@ -68,6 +72,14 @@ a.current-page{
     object-fit: cover;
     object-position: 10% 30%;
 }
+
+.contact-banner{
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 40% 70%;
+}
+
 
 .homepage-discord-img{
     height: 150px;
