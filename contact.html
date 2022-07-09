@@ -41,16 +41,20 @@
 
     <main>
 
-        <div class="d-flex">
+        <div id="flexContainer" class="d-flex">
             <!-- SIDEBAR -->
-            <div class="d-none d-lg-block bg-black text-white col-lg-3 text-uppercase fs-lg-14 ls-2 fw-400">
+            <div id="sideBar" class="d-none d-lg-block bg-black text-white col-lg-3 text-uppercase fs-lg-14 ls-2 fw-400">
+                <!-- CLOSE BUTTON -->
+                <div id="closeButton">
+                    <a class="pe-5 d-block d-lg-none fs-50 text-right">&times;</a>
+                </div>
                 <!-- LOGO -->
-                <div class="mx-auto width-95 mt-lg-5 pt-lg-5 text-center pb-lg-5">
+                <div class="mx-auto width-95 pt-3 pb-5 mt-lg-5 pt-lg-5 text-center pb-lg-5">
                     <a href="./index.html"> <img class="sidebar-logo-heart-img" src="./images/Zealous-logo-heart.PNG" alt=""> <img class="sidebar-logo-text-img " src="./images/Zealous-logo-white.png" alt=""> </a>
                 </div>
                 <!-- NAVIGATION -->
                 <nav class="mx-auto">
-                    <ul class="list-style-none ps-4 ms-lg-4 ps-lg-5 mb-lg-5 pb-lg-5">
+                    <ul class="list-style-none ps-4 ms-lg-4 ps-5 ps-lg-5 mb-5 mb-lg-5 pb-lg-5">
                         <li class="pb-3"><a href="./index.html">Home</a></li>
                         <li class="pb-3"><a href="#">Shop</a></li>
                         <li class="pb-3"><a class="current-page" href="./contact.html">Contact</a></li>
@@ -59,7 +63,7 @@
                 </nav>
                 <!-- SOCIAL MEDIA -->
                 <div>
-                    <ul class="list-style-none ps-4 ms-lg-4 ps-lg-5">
+                    <ul class="list-style-none ps-4 ms-lg-4 ps-5 ps-lg-5">
                         <li class="pb-3">Find Us On:</li>
                         <li><a href="http://instagram.com/zealousclothing.us" target="_blank"> <span class="pe-2"> <img class="sidebar-ig-img" src="./images/instagram-zealous.png" alt=""> </span> Instagram</a> </li>
                         <li><a href="https://discord.gg/bJqDugMYqh" target="_blank"><img class="sidebar-discord-img" src="./images/Discord-logo.png" alt=""> </a> </li>
@@ -72,7 +76,7 @@
                 <!-- HEADER -->
                 <div class="d-flex justify-content-between my-3 my-lg-4 pt-lg-2 pb-lg-4 mx-auto width-90 width-lg-90 pe-lg-5">
                     <!-- HAMBURGER -->
-                    <div class="d-lg-none">
+                    <div id="hamburgerIcon" class="d-lg-none">
                         <img src="./images/hamburger.png" alt="">
                     </div>
                     <div>
